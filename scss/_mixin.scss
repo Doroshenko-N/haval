@@ -1,0 +1,16 @@
+@mixin font($font-family, $weight, $size, $height) {
+    font-family: $font-family;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $height;
+}
+
+@mixin wh($weight, $height) {
+    width: $weight;
+    height: $height;
+}
+
+@mixin wm-h($weight, $min-height) {
+    width: $weight;
+    min-height: $min-height;
+}

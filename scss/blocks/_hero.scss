@@ -1,0 +1,104 @@
+@import "modal";
+
+.hero {
+  background-image: url(../../img/bg_hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 756px;
+    padding: 63px 15px;
+  }
+
+  &__title {
+    @include font($font-family, 500, 40px, 137%);
+    text-align: center;
+    padding: 17px 124px;
+    margin-bottom: 24px;
+    color: $white-color;
+    -webkit-backdrop-filter: blur(10.600000381469727px);
+    backdrop-filter: blur(10.600000381469727px);
+    background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(0, 0, 0, 0)),
+      color-stop(38.72%, #000),
+      color-stop(61.63%, #000),
+      to(rgba(0, 0, 0, 0))
+    );
+    background: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, #000 38.72%, #000 61.63%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #000 38.72%, #000 61.63%, rgba(0, 0, 0, 0) 100%);
+
+    & span {
+      display: block;
+      color: $second-color;
+    }
+  }
+
+  &__btn {
+    @include font($font-family, 500, 16px, 16px);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 23px;
+    -webkit-transition: -webkit-transform 0.4s;
+    transition: -webkit-transform 0.4s;
+    -o-transition: transform 0.4s;
+    transition: transform 0.4s;
+    transition:
+      transform 0.4s,
+      -webkit-transform 0.4s;
+
+    &:hover {
+      -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .hero {
+    &__title {
+      @include font($font-family, 500, 32px, 137%);
+      padding: 17px 50px;
+    }
+  }
+}
+
+@media (max-width: 786px) {
+  .hero {
+    &__container {
+      height: 400px;
+      padding: 30px 15px;
+    }
+
+    &__title {
+      font-size: 20px;
+    }
+
+    &__btn {
+      @include font($font-family, 400, 10px, 10px);
+      padding: 10px 13px;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .hero {
+    &__title {
+      font-size: 16px;
+    }
+  }
+}

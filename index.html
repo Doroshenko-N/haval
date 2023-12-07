@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Haval</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-top">
+      <div class="container header-top__container">
+        <div class="header-top__logo-wrap">
+          <svg class="header-top__logo" width="307" height="48" viewBox="0 0 307 48" fill="none"
+            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <rect width="162" height="42" transform="translate(0 3)" fill="url(#pattern0)" />
+            <path
+              d="M6.753 15.242C3.695 15.242 1.55 13.548 1.55 11.15C1.55 8.752 3.695 7.058 6.753 7.058C9.811 7.058 11.956 8.752 11.956 11.15C11.956 13.548 9.811 15.242 6.753 15.242ZM2.936 11.15C2.936 12.932 4.421 14.054 6.753 14.054C9.085 14.054 10.57 12.932 10.57 11.15C10.57 9.368 9.085 8.246 6.753 8.246C4.421 8.246 2.936 9.368 2.936 11.15ZM17.3229 15.165C14.8149 15.055 13.0549 14.032 13.0549 12.25C13.0549 10.457 14.8149 9.456 17.3229 9.346V7.3H18.6649V9.346C21.1509 9.456 22.9109 10.468 22.9109 12.25C22.9109 14.021 21.1509 15.055 18.6649 15.165V17.2H17.3229V15.165ZM14.4409 12.25C14.4409 13.361 15.5409 14.076 17.3229 14.12V10.38C15.5409 10.424 14.4409 11.117 14.4409 12.25ZM18.6649 14.109C20.4249 14.065 21.5249 13.361 21.5249 12.25C21.5249 11.128 20.4249 10.435 18.6649 10.391V14.109ZM24.3419 15V9.5H25.6839V13.24L29.8199 9.5H31.5359V15H30.1939V10.721L25.4419 15H24.3419ZM33.3009 15V9.5H34.6429V13.944H38.8339V9.5H40.1759V13.944H41.2649V16.474H39.9889V15H33.3009ZM42.5821 15V9.5H43.9241V13.24L48.0601 9.5H49.7761V15H48.4341V10.721L43.6821 15H42.5821ZM53.7411 15.198C52.2781 15.198 51.1011 14.593 51.1011 13.438C51.1011 11.898 53.1581 11.403 55.1161 11.403C55.9081 11.403 56.6891 11.48 57.3051 11.546V11.458C57.3051 10.688 56.4691 10.325 55.0281 10.325C53.7741 10.325 52.4871 10.655 51.4201 11.293V10.116C52.4651 9.577 53.7631 9.258 55.1931 9.258C57.3161 9.258 58.5481 9.962 58.5481 11.59V15H57.3051V13.779C56.4471 14.758 55.0281 15.198 53.7411 15.198ZM52.4761 13.339C52.4761 13.823 53.0261 14.065 53.8401 14.065C55.2921 14.065 56.8761 13.284 57.2941 12.459C56.7551 12.393 56.0841 12.327 55.1821 12.327C53.8511 12.327 52.4761 12.58 52.4761 13.339ZM60.2653 15.066C59.9353 15.066 59.8143 15.044 59.5393 14.978L59.5613 13.823C59.7703 13.867 59.9573 13.889 60.1113 13.889C60.8703 13.889 61.0463 13.317 61.1123 11.92C61.1563 10.985 61.1453 10.138 61.1563 9.5H67.2723V15H65.9303V10.578H62.3883L62.3773 11.205C62.3333 13.295 62.1793 13.966 61.7723 14.439C61.3323 14.967 60.7823 15.066 60.2653 15.066ZM69.0294 15V9.5H70.3714V11.128H73.7044C75.4424 11.128 76.2564 11.953 76.2564 13.053C76.2564 14.109 75.4424 15 73.7044 15H69.0294ZM70.3714 13.966H73.7924C74.4524 13.966 74.8704 13.614 74.8704 13.053C74.8704 12.503 74.4524 12.162 73.7924 12.162H70.3714V13.966ZM83.3772 15V12.657H78.9222V15H77.5802V9.5H78.9222V11.601H83.3772V9.5H84.7192V15H83.3772ZM86.4747 15V9.5H87.8167V11.128H90.8197C92.5577 11.128 93.3717 11.953 93.3717 13.053C93.3717 14.109 92.5577 15 90.8197 15H86.4747ZM87.8167 13.966H90.9077C91.5677 13.966 91.9857 13.614 91.9857 13.053C91.9857 12.503 91.5677 12.162 90.9077 12.162H87.8167V13.966ZM94.3727 15V9.5H95.7147V15H94.3727ZM97.4747 15V9.5H98.8167V13.24L102.953 9.5H104.669V15H103.327V10.721L98.5747 15H97.4747ZM98.7177 8.213V7.08H98.7947C99.4547 7.52 100.236 7.762 101.061 7.762C101.886 7.762 102.667 7.52 103.327 7.08H103.404V8.213C102.667 8.719 101.787 8.851 101.061 8.851C100.335 8.851 99.4547 8.719 98.7177 8.213ZM110.72 16.474V13.944H111.578C112.205 13.119 112.326 11.81 112.326 11.117V9.5H118.178V13.944H119.19V16.474H117.914V15H111.996V16.474H110.72ZM112.843 13.944H116.836V10.556H113.602V11.172C113.602 12.415 113.25 13.251 112.843 13.944ZM120.506 15V9.5H121.848V13.24L125.984 9.5H127.7V15H126.358V10.721L121.606 15H120.506ZM129.531 15.066C129.201 15.066 129.08 15.044 128.805 14.978L128.827 13.823C129.036 13.867 129.223 13.889 129.377 13.889C130.136 13.889 130.312 13.317 130.378 11.92C130.422 10.985 130.411 10.138 130.422 9.5H136.538V15H135.196V10.578H131.654L131.643 11.205C131.599 13.295 131.445 13.966 131.038 14.439C130.598 14.967 130.048 15.066 129.531 15.066ZM137.965 12.261C137.965 10.435 139.549 9.258 141.771 9.258C144.059 9.258 145.588 10.402 145.588 12.349V12.613H139.263C139.505 13.834 141.001 14.208 142.2 14.208C143.322 14.208 144.543 13.878 145.423 13.416H145.511V14.516C144.598 14.967 143.41 15.242 142.2 15.242C140.022 15.242 137.965 14.351 137.965 12.261ZM139.285 11.7H144.257C143.927 10.622 142.926 10.248 141.848 10.248C140.671 10.248 139.527 10.699 139.285 11.7ZM151.427 15.242C150.305 15.242 149.238 14.879 148.413 14.241V17.2H147.071V9.5H148.413V10.468C149.172 9.676 150.437 9.258 151.581 9.258C153.572 9.258 154.815 10.413 154.815 12.239C154.815 14.087 153.473 15.242 151.427 15.242ZM148.413 13.108C149.062 13.647 150.063 14.186 151.218 14.186C152.56 14.186 153.429 13.449 153.429 12.239C153.429 11.062 152.56 10.314 151.251 10.314C150.151 10.314 149.04 10.853 148.413 11.535V13.108Z"
+              fill="white" />
+            <rect width="112" height="48" transform="translate(195)" fill="url(#pattern1)" />
+            <rect x="178" y="22" width="1" height="22" fill="white" />
+            <defs>
+              <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                <use xlink:href="#image0_1_224" transform="matrix(0.00121914 0 0 0.00470238 0.0123457 0.507679)" />
+              </pattern>
+              <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+                <use xlink:href="#image1_1_224" transform="scale(0.00892857 0.0208333)" />
+              </pattern>
+              <image id="image0_1_224" width="800" height="98"
+                xlink:href="data:image/png;base64,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" />
+              <image id="image1_1_224" width="112" height="48"
+                xlink:href="data:image/png;base64,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" />
+            </defs>
+          </svg>
+        </div>
+        <div class="header-top__phone">
+          <img class="header-top__phone-icon" src="img/phone.png" alt="Иконка телефона" width="21" height="24">
+          <a href="tel:+74957559990" class="header-top__phone-link">+7 (495) 755 99 90</a>
+        </div>
+        <div class="header-top__localization flex">
+          <img class="header-top__localization-icon" src="img/localization.png" alt="Иконка местоположения">
+          <p class="header-top__localization-descr">
+            МО, г. Химки, Ленинградское ш., вл.14 стр.1
+            <span>Часы работы с 09:00 до 21:00</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="burger__wrap">
+      <button class="btn-reset burger" id="burger">
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+      </button>
+    </div>
+    <nav class="header-nav" id="nav">
+      <div class="container header-nav__container">
+        <div class="nav header-nav__nav">
+          <ul class="header-nav__models-list ">
+            <li class="header-nav__model-item header-nav__model-item-contact">
+              <div class="header-nav__phone header-top__phone header-top__phone--active">
+                <img class="header-nav__phone-icon header-top__phone-icon" src="img/phone.png" alt="Иконка телефона"
+                  width="21" height="24">
+                <a href="tel:+74957559990" class="header-nav__phone-link header-top__phone-link">+7 (495) 755 99 90</a>
+              </div>
+              <div class="header-nav__localization header-top__localization header-top__localization--active flex">
+                <img class="header-nav__localization-icon header-top__localization-icon" src="img/localization.png"
+                  alt="Иконка местоположения">
+                <p class="header-nav__localization-descr header-top__localization-descr">
+                  МО, г. Химки, Ленинградское ш., вл.14 стр.1
+                  <span>Часы работы с 09:00 до 21:00</span>
+                </p>
+              </div>
+            </li>
+            <li class="header-nav__model-item">
+              <a class="header-nav__model-link" href="#">M6</a>
+            </li>
+            <li class="header-nav__model-item">
+              <a class="header-nav__model-link" href="#">DARGO X</a>
+            </li>
+            <li class="header-nav__model-item">
+              <a class="header-nav__model-link" href="#">DARGO</a>
+            </li>
+            <li class="header-nav__model-item">
+              <a class="header-nav__model-link" href="#">JOLION</a>
+            </li>
+            <li class="header-nav__model-item">
+              <a class="header-nav__model-link" href="#">F7x</a>
+            </li>
+            <li class="header-nav__model-item">
+              <a class="header-nav__model-link" href="#">F7</a>
+            </li>
+            <li class="header-nav__model-item">
+              <a class="header-nav__model-link" href="#">H9</a>
+            </li>
+            <li class="header-nav__model-item">
+              <a class="header-nav__model-link" href="#">GWM Poer</a>
+            </li>
+            <li class="header-nav__model-item">
+              <a class="header-nav__model-link" href="#">GWM Poer KINGKONG</a>
+            </li>
+          </ul>
+          <ul class="header-nav__info-list">
+            <li class="header-nav__info-item">
+              <a class="header-nav__info-link" href="#">ПОДОБРАТЬ КОМПЛЕКТАЦИЮ</a>
+            </li>
+            <li class="header-nav__info-item">
+              <a class="header-nav__info-link" href="#">ТЕСТ-ДРАЙВ</a>
+            </li>
+            <li class="header-nav__info-item">
+              <a class="header-nav__info-link" href="#">КОНТАКТЫ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="hero">
+      <div class="container hero__container">
+        <h1 class="hero__title">
+          Увеличиваем выгоды на HAVAL <span>в Химках к Чёрной пятнице!</span>
+        </h1>
+        <a href="" data-fancybox data-src="#modal" data-modal="true" class="hero__btn btn-reset">
+          Узнать стоимость
+        </a>
+        <div class="modal" id="modal" style="display: none;">
+          <form class="modal__form">
+            <label class="modal__label">
+              <span class="modal__span">Введите номер телефона</span>
+              <input class="modal__input" type="tel" required minlength="7" maxlength="11"
+                placeholder="8-999-999-99-99">
+            </label>
+            <button type="submit" class="modal__btn">Отправить</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="conditions">
+      <div class="container conditions__container">
+        <div class="conditions__timer-wrap">
+          <h2 class="conditions__title">
+            Оставьте заявку и зафиксируйте условия
+          </h2>
+          <div class="conditions__timer-desktop">
+            <script src="//megatimer.ru/get/9cb3c660725feb5b5d29b64bd229b095.js"></script>
+          </div>
+          <div class="conditions__timer-mobile">
+            <script src="//megatimer.ru/get/6afad21566d00ee427cec54a4a280144.js"></script>
+          </div>
+        </div>
+        <div class="conditions__btn-wrap">
+          <a href="" data-fancybox data-src="#modal" data-modal="true" class="conditions__btn btn-reset">
+            Зафиксировать условия
+          </a>
+          <div class="modal" id="modal" style="display: none;">
+            <form class="modal__form">
+              <label class="modal__label">
+                <span class="modal__span">Введите номер телефона</span>
+                <input class="modal__input" type="tel" required minlength="7" maxlength="11"
+                  placeholder="8-999-999-99-99">
+              </label>
+              <button type="submit" class="modal__btn">Отправить</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <svg class="conditions__chat shake" width="70" height="70" viewBox="0 0 70 70" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <rect opacity="0.2" width="70" height="70" rx="35" fill="#000001" />
+        <g clip-path="url(#clip0_2004_13)">
+          <rect opacity="0.655535" x="-2.5" y="-2.5" width="74" height="74" rx="37" stroke="#000001" />
+          <rect x="7" y="7" width="56" height="56" rx="28" fill="#000001" />
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M45.2851 29.5451C45.7399 29.5451 46.1761 29.7232 46.4977 30.0402C46.8193 30.3573 47 30.7872 47 31.2355V40.9468C47 41.3951 46.8193 41.825 46.4977 42.142C46.1761 42.459 45.7399 42.6371 45.2851 42.6371H44.3899V47L40.3153 42.6363H33.8819C33.4271 42.6363 32.9909 42.4582 32.6693 42.1412C32.3477 41.8242 32.167 41.3942 32.167 40.9459V39.3637H40.8041C41.4863 39.3637 42.1406 39.0966 42.623 38.6211C43.1054 38.1456 43.3764 37.5006 43.3764 36.8281V29.5451H45.2851ZM39.6182 23C40.073 23 40.5092 23.1781 40.8308 23.4951C41.1524 23.8121 41.3331 24.2421 41.3331 24.6904V35.4919C41.3331 35.7139 41.2888 35.9337 41.2026 36.1388C41.1164 36.3439 40.9901 36.5302 40.8308 36.6872C40.6716 36.8441 40.4825 36.9687 40.2745 37.0536C40.0664 37.1386 39.8434 37.1823 39.6182 37.1823H32.167L27.0737 42.6363V37.1823H24.7149C24.2601 37.1823 23.8239 37.0042 23.5023 36.6872C23.1807 36.3702 23 35.9402 23 35.4919V24.6904C23 24.2421 23.1807 23.8121 23.5023 23.4951C23.8239 23.1781 24.2601 23 24.7149 23H39.6182Z"
+            fill="white" />
+        </g>
+        <defs>
+          <clipPath id="clip0_2004_13">
+            <rect x="7" y="7" width="56" height="56" rx="28" fill="white" />
+          </clipPath>
+        </defs>
+      </svg>
+    </section>
+    <section class="models">
+      <div class="container models__container">
+        <ul class="models__list">
+          <li class="models__item">
+            <div class="models__card">
+              <div class="tabs">
+                <a class="models__card-link tabs__content" href="#" data-target="one">
+                  <p class="models__available">
+                    В наличии <span>21 автомобиль</span>
+                  </p>
+                  <div class="models__card-top models__card-top-1">
+                    <div class="models__wrap-header">
+                      <h2 class="models__title">
+                        HAVAL M6
+                      </h2>
+                      <div class="models__test-drive">
+                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g clip-path="url(#clip0_2001_8)">
+                            <circle cx="14" cy="14" r="14" fill="#00CABF" />
+                            <g clip-path="url(#clip1_2001_8)">
+                              <path
+                                d="M19.2807 12.4266L19.8987 11.8086C20.3903 11.317 20.6665 10.6502 20.6665 9.95498C20.6665 9.25972 20.3903 8.59293 19.8987 8.10131C19.407 7.60969 18.7403 7.3335 18.045 7.3335C17.3497 7.3335 16.683 7.60969 16.1913 8.10131L15.5733 8.71931L9.892 14.3993C9.50734 14.7846 9.31467 14.9773 9.14934 15.1893C8.95407 15.4395 8.78664 15.7102 8.65 15.9966C8.53467 16.2393 8.44867 16.498 8.27667 17.014L7.54734 19.2013M19.2807 12.4266C19.2807 12.4266 17.968 12.3493 16.8093 11.1906C15.6507 10.0326 15.574 8.71931 15.574 8.71931M19.2807 12.4266L13.6 18.1066C13.2153 18.4913 13.0227 18.684 12.8107 18.8493C12.5605 19.0446 12.2898 19.212 12.0033 19.3486C11.7607 19.464 11.5027 19.55 10.986 19.722L8.79867 20.4513M8.79867 20.4513L8.264 20.63C8.13937 20.6718 8.00556 20.678 7.87759 20.6479C7.74963 20.6178 7.6326 20.5526 7.53965 20.4597C7.4467 20.3667 7.38152 20.2497 7.35143 20.1217C7.32134 19.9938 7.32754 19.8599 7.36934 19.7353L7.548 19.2006L8.79867 20.4513Z"
+                                stroke="white" />
+                            </g>
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_2001_8">
+                              <rect width="28" height="28" fill="white" transform="translate(0 28) rotate(-90)" />
+                            </clipPath>
+                            <clipPath id="clip1_2001_8">
+                              <rect width="16" height="16" fill="white" transform="translate(6 6)" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                        <p class="models__test-drive-descr">
+                          Записаться <span>на тест-драйв</span>
+                        </p>
+                      </div>
+                    </div>
+                    <p class="models__discount">
+                      Выгода до <span>410 000 ₽</span>
+                    </p>
+                  </div>
+                </a>
+                <a class="models__card-link tabs__content" href="#" data-target="two">
+                  <p class="models__available">
+                    В наличии <span>21 автомобиль</span>
+                  </p>
+                  <div class="models__card-top models__card-top-2">
+                    <div class="models__wrap-header">
+                      <h2 class="models__title">
+                        HAVAL M6
+                      </h2>
+                      <div class="models__test-drive">
+                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g clip-path="url(#clip0_2001_8)">
+                            <circle cx="14" cy="14" r="14" fill="#00CABF" />
+                            <g clip-path="url(#clip1_2001_8)">
+                              <path
+                                d="M19.2807 12.4266L19.8987 11.8086C20.3903 11.317 20.6665 10.6502 20.6665 9.95498C20.6665 9.25972 20.3903 8.59293 19.8987 8.10131C19.407 7.60969 18.7403 7.3335 18.045 7.3335C17.3497 7.3335 16.683 7.60969 16.1913 8.10131L15.5733 8.71931L9.892 14.3993C9.50734 14.7846 9.31467 14.9773 9.14934 15.1893C8.95407 15.4395 8.78664 15.7102 8.65 15.9966C8.53467 16.2393 8.44867 16.498 8.27667 17.014L7.54734 19.2013M19.2807 12.4266C19.2807 12.4266 17.968 12.3493 16.8093 11.1906C15.6507 10.0326 15.574 8.71931 15.574 8.71931M19.2807 12.4266L13.6 18.1066C13.2153 18.4913 13.0227 18.684 12.8107 18.8493C12.5605 19.0446 12.2898 19.212 12.0033 19.3486C11.7607 19.464 11.5027 19.55 10.986 19.722L8.79867 20.4513M8.79867 20.4513L8.264 20.63C8.13937 20.6718 8.00556 20.678 7.87759 20.6479C7.74963 20.6178 7.6326 20.5526 7.53965 20.4597C7.4467 20.3667 7.38152 20.2497 7.35143 20.1217C7.32134 19.9938 7.32754 19.8599 7.36934 19.7353L7.548 19.2006L8.79867 20.4513Z"
+                                stroke="white" />
+                            </g>
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_2001_8">
+                              <rect width="28" height="28" fill="white" transform="translate(0 28) rotate(-90)" />
+                            </clipPath>
+                            <clipPath id="clip1_2001_8">
+                              <rect width="16" height="16" fill="white" transform="translate(6 6)" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                        <p class="models__test-drive-descr">
+                          Записаться <span>на тест-драйв</span>
+                        </p>
+                      </div>
+                    </div>
+                    <p class="models__discount">
+                      Выгода до <span>410 000 ₽</span>
+                    </p>
+                  </div>
+                </a>
+                <a class="models__card-link tabs__content tabs__content--active" href="#" data-target="three">
+                  <p class="models__available">
+                    В наличии <span>21 автомобиль</span>
+                  </p>
+                  <div class="models__card-top models__card-top-1">
+                    <div class="models__wrap-header">
+                      <h2 class="models__title">
+                        HAVAL M6
+                      </h2>
+                      <div class="models__test-drive">
+                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g clip-path="url(#clip0_2001_8)">
+                            <circle cx="14" cy="14" r="14" fill="#00CABF" />
+                            <g clip-path="url(#clip1_2001_8)">
+                              <path
+                                d="M19.2807 12.4266L19.8987 11.8086C20.3903 11.317 20.6665 10.6502 20.6665 9.95498C20.6665 9.25972 20.3903 8.59293 19.8987 8.10131C19.407 7.60969 18.7403 7.3335 18.045 7.3335C17.3497 7.3335 16.683 7.60969 16.1913 8.10131L15.5733 8.71931L9.892 14.3993C9.50734 14.7846 9.31467 14.9773 9.14934 15.1893C8.95407 15.4395 8.78664 15.7102 8.65 15.9966C8.53467 16.2393 8.44867 16.498 8.27667 17.014L7.54734 19.2013M19.2807 12.4266C19.2807 12.4266 17.968 12.3493 16.8093 11.1906C15.6507 10.0326 15.574 8.71931 15.574 8.71931M19.2807 12.4266L13.6 18.1066C13.2153 18.4913 13.0227 18.684 12.8107 18.8493C12.5605 19.0446 12.2898 19.212 12.0033 19.3486C11.7607 19.464 11.5027 19.55 10.986 19.722L8.79867 20.4513M8.79867 20.4513L8.264 20.63C8.13937 20.6718 8.00556 20.678 7.87759 20.6479C7.74963 20.6178 7.6326 20.5526 7.53965 20.4597C7.4467 20.3667 7.38152 20.2497 7.35143 20.1217C7.32134 19.9938 7.32754 19.8599 7.36934 19.7353L7.548 19.2006L8.79867 20.4513Z"
+                                stroke="white" />
+                            </g>
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_2001_8">
+                              <rect width="28" height="28" fill="white" transform="translate(0 28) rotate(-90)" />
+                            </clipPath>
+                            <clipPath id="clip1_2001_8">
+                              <rect width="16" height="16" fill="white" transform="translate(6 6)" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                        <p class="models__test-drive-descr">
+                          Записаться <span>на тест-драйв</span>
+                        </p>
+                      </div>
+                    </div>
+                    <p class="models__discount">
+                      Выгода до <span>410 000 ₽</span>
+                    </p>
+                  </div>
+                </a>
+                <ul class="tabs__list">
+                  <li class="tabs__item">
+                    <button class="tabs__btn tabs__btn-1 btn-reset" data-path="one"></button>
+                  </li>
+                  <li class="tabs__item">
+                    <button class="tabs__btn tabs__btn-2 btn-reset" data-path="two"></button>
+                  </li>
+                  <li class="tabs__item">
+                    <button class="tabs__btn tabs__btn-3 btn-reset tabs__btn--active" data-path="three"></button>
+                  </li>
+                </ul>
+              </div>
+              <ul class="models__gift-list">
+                <li class="models__gift-item">
+                  <svg class="models__gift-icon" width="28" height="28" viewBox="0 0 28 28"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_3_1559)">
+                      <circle cx="14" cy="14" r="14" />
+                      <g clip-path="url(#clip1_3_1559)">
+                        <path
+                          d="M19.9648 6H15.5322C15.3944 5.9999 15.2622 6.05435 15.1644 6.15144L6.30289 15.0108C6.1089 15.2057 6 15.4696 6 15.7446C6 16.0196 6.1089 16.2834 6.30289 16.4783L10.5216 20.6971C10.7166 20.8911 10.9805 21 11.2556 21C11.5307 21 11.7945 20.8911 11.9895 20.6971L20.8485 11.8413C20.9456 11.7436 21.0001 11.6113 21 11.4735V7.03846C21.0007 6.90218 20.9744 6.7671 20.9226 6.64102C20.8709 6.51494 20.7947 6.40034 20.6985 6.30382C20.6022 6.2073 20.4879 6.13077 20.362 6.07863C20.236 6.02648 20.1011 5.99976 19.9648 6Z"
+                          stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                          d="M17 10C16.8022 10 16.6089 9.94135 16.4444 9.83147C16.28 9.72159 16.1518 9.56541 16.0761 9.38268C16.0004 9.19996 15.9806 8.99889 16.0192 8.80491C16.0578 8.61093 16.153 8.43275 16.2929 8.29289C16.4327 8.15304 16.6109 8.0578 16.8049 8.01922C16.9989 7.98063 17.2 8.00043 17.3827 8.07612C17.5654 8.15181 17.7216 8.27998 17.8315 8.44443C17.9414 8.60888 18 8.80222 18 9C18 9.26522 17.8946 9.51957 17.7071 9.70711C17.5196 9.89464 17.2652 10 17 10Z"
+                          fill="white" />
+                        <path
+                          d="M13 22L21.8646 12.83C21.9086 12.784 21.9433 12.7293 21.9666 12.6692C21.9898 12.6091 22.0012 12.5447 21.9999 12.48V8"
+                          stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                      </g>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_3_1559">
+                        <rect width="28" height="28" fill="white" transform="translate(0 28) rotate(-90)" />
+                      </clipPath>
+                      <clipPath id="clip1_3_1559">
+                        <rect width="18" height="18" fill="white" transform="translate(5 5)" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <p class="models__gift-descr">
+                    Выгода <span>по госпрограмме</span>
+                  </p>
+                </li>
+                <li class="models__gift-item">
+                  <svg class="models__gift-icon" width="28" height="28" viewBox="0 0 28 28"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_3_1575)">
+                      <circle cx="14" cy="14" r="14" />
+                      <path
+                        d="M20.9286 9.4186H8.68367C8.4807 9.4186 8.28604 9.33897 8.14252 9.19723C7.999 9.05549 7.91837 8.86325 7.91837 8.66279C7.91837 8.46234 7.999 8.27009 8.14252 8.12835C8.28604 7.98661 8.4807 7.90698 8.68367 7.90698H19.0918C19.2136 7.90698 19.3304 7.8592 19.4165 7.77415C19.5026 7.68911 19.551 7.57376 19.551 7.45349C19.551 7.33322 19.5026 7.21787 19.4165 7.13282C19.3304 7.04778 19.2136 7 19.0918 7H8.68367C8.23714 7 7.80889 7.17519 7.49314 7.48702C7.17739 7.79885 7 8.22179 7 8.66279V18.3372C7 18.7782 7.17739 19.2011 7.49314 19.513C7.80889 19.8248 8.23714 20 8.68367 20H20.9286C21.2127 20 21.4853 19.8885 21.6862 19.6901C21.8871 19.4916 22 19.2225 22 18.9419V10.4767C22 10.1961 21.8871 9.92697 21.6862 9.72853C21.4853 9.53009 21.2127 9.4186 20.9286 9.4186ZM21.0816 18.9419C21.0816 18.982 21.0655 19.0204 21.0368 19.0487C21.0081 19.0771 20.9692 19.093 20.9286 19.093H8.68367C8.4807 19.093 8.28604 19.0134 8.14252 18.8717C7.999 18.7299 7.91837 18.5377 7.91837 18.3372V10.1434C8.15515 10.2635 8.41753 10.3259 8.68367 10.3256H20.9286C20.9692 10.3256 21.0081 10.3415 21.0368 10.3699C21.0655 10.3982 21.0816 10.4367 21.0816 10.4767V18.9419ZM18.9388 14.407C18.9388 14.5565 18.8939 14.7026 18.8098 14.8269C18.7257 14.9512 18.6062 15.0481 18.4663 15.1053C18.3265 15.1625 18.1726 15.1774 18.0242 15.1483C17.8757 15.1191 17.7393 15.0471 17.6323 14.9414C17.5253 14.8357 17.4524 14.701 17.4229 14.5544C17.3933 14.4078 17.4085 14.2558 17.4664 14.1177C17.5243 13.9796 17.6224 13.8616 17.7483 13.7785C17.8741 13.6955 18.0221 13.6512 18.1735 13.6512C18.3764 13.6512 18.5711 13.7308 18.7146 13.8725C18.8581 14.0143 18.9388 14.2065 18.9388 14.407Z"
+                        fill="white" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_3_1575">
+                        <rect width="28" height="28" fill="white" transform="translate(0 28) rotate(-90)" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <p class="models__gift-descr">
+                    Максимальные <span>выгоды по трейд-ин</span>
+                  </p>
+                </li>
+                <li class="models__gift-item">
+                  <svg class="models__gift-icon" width="28" height="28" viewBox="0 0 28 28"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_3_1581)">
+                      <circle cx="14" cy="14" r="14" />
+                      <path
+                        d="M16.8652 12.7785C16.9539 12.6907 17.0022 12.5747 16.9999 12.4548C16.9976 12.3348 16.9449 12.2204 16.8529 12.1356C16.761 12.0508 16.6368 12.0022 16.5068 12.0001C16.3767 11.998 16.2508 12.0425 16.1556 12.1242L13.1632 14.8832L11.8444 13.6673C11.7492 13.5855 11.6233 13.541 11.4932 13.5431C11.3632 13.5452 11.239 13.5938 11.1471 13.6786C11.0551 13.7635 11.0024 13.8779 11.0001 13.9978C10.9978 14.1177 11.0461 14.2338 11.1348 14.3216L12.8084 15.8646C12.9025 15.9513 13.0301 16 13.1632 16C13.2962 16 13.4239 15.9513 13.518 15.8646L16.8652 12.7785Z"
+                        fill="white" />
+                      <path
+                        d="M13.851 6.05729L19.2135 7.8496C19.442 7.92602 19.6412 8.07505 19.7825 8.27534C19.9238 8.47562 19.9999 8.71688 20 8.96452V12.3307C20 16.4782 17.5489 19.5027 13.8893 20.9271C13.6383 21.0243 13.3617 21.0243 13.1107 20.9271C9.4505 19.5033 7 16.4782 7 12.3307V8.96452C7 8.45664 7.31785 8.00639 7.7865 7.8496L13.149 6.05729C13.3771 5.9809 13.6229 5.9809 13.851 6.05729ZM13.45 7.01274L8.08745 8.80573C8.05481 8.81651 8.02633 8.8377 8.00612 8.86624C7.98591 8.89477 7.97502 8.92919 7.975 8.96452V12.3307C7.975 15.9891 10.107 18.6846 13.4545 19.9864C13.4838 19.9978 13.5162 19.9978 13.5455 19.9864C16.893 18.6846 19.025 15.9897 19.025 12.3307V8.96452C19.0249 8.92921 19.0139 8.89485 18.9938 8.86633C18.9736 8.83781 18.9451 8.8166 18.9125 8.80573L13.55 7.01274C13.5175 7.00202 13.4825 7.00202 13.45 7.01274Z"
+                        fill="white" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_3_1581">
+                        <rect width="28" height="28" fill="white" transform="translate(0 28) rotate(-90)" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <p class="models__gift-descr">
+                    КАСКО в подарок
+                  </p>
+                </li>
+                <li class="models__gift-item">
+                  <svg class="models__gift-icon" width="28" height="28" viewBox="0 0 28 28"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_3_1588)">
+                      <circle cx="14" cy="14" r="14" />
+                      <path
+                        d="M17.5 22C19.4328 22 21 18.6423 21 14.5C21 10.3578 19.4328 7 17.5 7M14 14.5C14 18.6423 12.4328 22 10.5 22C8.56724 22 7 18.6423 7 14.5C7 10.3578 8.56724 7 10.5 7C12.4328 7 14 10.3578 14 14.5Z"
+                        stroke="white" />
+                      <path d="M11 22C12.6567 22 14 18.6423 14 14.5C14 10.3578 12.6567 7 11 7" stroke="white" />
+                      <path
+                        d="M11.1429 7H18M11.1429 22H18M12.2857 14.5C12.2857 16.9855 11.7737 19 11.1429 19C10.512 19 10 16.9855 10 14.5C10 12.0145 10.512 10 11.1429 10C11.7737 10 12.2857 12.0145 12.2857 14.5Z"
+                        stroke="white" />
+                      <path
+                        d="M23 9C23 6.79086 21.2091 5 19 5C16.7909 5 15 6.79086 15 9C15 11.2091 16.7909 13 19 13C21.2091 13 23 11.2091 23 9Z" />
+                      <path
+                        d="M21.9854 9.6903C21.9932 9.72217 21.9947 9.7553 21.9897 9.78776C21.9848 9.82023 21.9735 9.85136 21.9565 9.87946C21.9395 9.90756 21.9172 9.93202 21.8907 9.95146C21.8643 9.97089 21.8343 9.98496 21.8025 9.99279L21.0335 10.1803L21.2351 10.9337C21.2436 10.9654 21.2458 10.9985 21.2415 11.031C21.2372 11.0636 21.2265 11.095 21.2101 11.1234C21.1937 11.1519 21.1719 11.1768 21.1459 11.1968C21.1198 11.2168 21.0901 11.2314 21.0584 11.2399C21.0374 11.246 21.0157 11.2493 20.9938 11.2499C20.9389 11.2499 20.8856 11.2317 20.842 11.1982C20.7984 11.1647 20.7671 11.1177 20.7529 11.0646L20.512 10.1646L19.2461 9.43311V10.8965L19.9221 11.573C19.9453 11.5963 19.9637 11.6238 19.9763 11.6542C19.9888 11.6845 19.9953 11.717 19.9953 11.7499C19.9953 11.7827 19.9888 11.8153 19.9763 11.8456C19.9637 11.8759 19.9453 11.9035 19.9221 11.9268C19.8989 11.95 19.8714 11.9684 19.8411 11.981C19.8108 11.9935 19.7783 12 19.7455 12C19.7127 12 19.6802 11.9935 19.6499 11.981C19.6196 11.9684 19.592 11.95 19.5688 11.9268L18.9965 11.3533L18.4241 11.9268C18.4009 11.95 18.3733 11.9684 18.343 11.981C18.3127 11.9935 18.2802 12 18.2474 12C18.2146 12 18.1821 11.9935 18.1518 11.981C18.1215 11.9684 18.094 11.95 18.0708 11.9268C18.0476 11.9035 18.0292 11.8759 18.0166 11.8456C18.0041 11.8153 17.9976 11.7827 17.9976 11.7499C17.9976 11.717 18.0041 11.6845 18.0166 11.6542C18.0292 11.6238 18.0476 11.5963 18.0708 11.573L18.7468 10.8965V9.43311L17.4812 10.1646L17.2403 11.0646C17.2261 11.1178 17.1947 11.1648 17.1511 11.1983C17.1075 11.2318 17.054 11.2499 16.9991 11.2499C16.9772 11.2499 16.9553 11.247 16.9341 11.2415C16.9025 11.233 16.8728 11.2183 16.8467 11.1983C16.8207 11.1784 16.7989 11.1534 16.7824 11.125C16.766 11.0966 16.7554 11.0652 16.7511 11.0326C16.7468 11 16.749 10.9669 16.7575 10.9352L16.9591 10.1818L16.1901 9.99435C16.1258 9.97852 16.0704 9.93776 16.0361 9.88103C16.0018 9.8243 15.9914 9.75623 16.0072 9.69187C16.023 9.62747 16.0637 9.57197 16.1204 9.53764C16.1771 9.50331 16.245 9.49291 16.3093 9.50874L17.2284 9.73467L18.4971 9L17.2288 8.26693L16.3096 8.49285C16.2902 8.49769 16.2701 8.50009 16.25 8.50002C16.189 8.50009 16.13 8.47772 16.0843 8.43719C16.0386 8.39666 16.0094 8.34079 16.002 8.2801C15.9947 8.21943 16.0098 8.15814 16.0445 8.10787C16.0792 8.05757 16.1311 8.02177 16.1904 8.00724L16.9594 7.81975L16.7578 7.06478C16.7407 7.00072 16.7497 6.93246 16.7828 6.87503C16.8159 6.8176 16.8705 6.7757 16.9344 6.75854C16.9984 6.74139 17.0666 6.75038 17.124 6.78355C17.1813 6.81672 17.2232 6.87135 17.2403 6.93541L17.4812 7.83537L18.7468 8.56692V7.10353L18.0708 6.42699C18.0239 6.38009 17.9976 6.31647 17.9976 6.25013C17.9976 6.21728 18.0041 6.18476 18.0166 6.15441C18.0292 6.12406 18.0476 6.09649 18.0708 6.07326C18.094 6.05003 18.1215 6.03161 18.1518 6.01904C18.1821 6.00647 18.2146 6 18.2474 6C18.3137 6 18.3772 6.02635 18.4241 6.07326L18.9965 6.64667L19.5688 6.07326C19.6157 6.02635 19.6792 6 19.7455 6C19.8117 6 19.8753 6.02635 19.9221 6.07326C19.969 6.12017 19.9953 6.18379 19.9953 6.25013C19.9953 6.31647 19.969 6.38009 19.9221 6.42699L19.2461 7.10353V8.56692L20.5116 7.83537L20.7526 6.93541C20.7697 6.87135 20.8116 6.81672 20.8689 6.78355C20.9263 6.75038 20.9945 6.74139 21.0584 6.75854C21.1224 6.7757 21.177 6.8176 21.2101 6.87503C21.2433 6.93246 21.2522 7.00072 21.2351 7.06478L21.0335 7.81818L21.8025 8.00568C21.8634 8.01871 21.9173 8.05411 21.9535 8.10487C21.9897 8.15567 22.0057 8.21817 21.9982 8.28013C21.9907 8.34206 21.9604 8.39899 21.9131 8.43969C21.8659 8.48035 21.8052 8.50189 21.7429 8.50002C21.7228 8.50009 21.7028 8.49769 21.6832 8.49285L20.7641 8.26693L19.4958 9L20.7641 9.7331L21.6832 9.50718C21.7151 9.49934 21.7482 9.49784 21.7806 9.50281C21.813 9.50778 21.8441 9.51908 21.8722 9.53607C21.9003 9.55307 21.9247 9.57544 21.9441 9.60191C21.9635 9.62837 21.9775 9.6584 21.9854 9.6903Z"
+                        fill="white" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_3_1588">
+                        <rect width="28" height="28" fill="white" transform="translate(0 28) rotate(-90)" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <p class="models__gift-descr">
+                    Зимние шины в подарок
+                  </p>
+                </li>
+                <li class="models__gift-item">
+                  <svg class="models__gift-icon" width="28" height="28" viewBox="0 0 28 28"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_3_1598)">
+                      <circle cx="14" cy="14" r="14" />
+                      <path
+                        d="M20.0392 10.0006H17.2076C17.353 9.90571 17.4907 9.7987 17.6194 9.68067C17.8136 9.50063 17.97 9.28085 18.0788 9.03507C18.1877 8.78928 18.2467 8.52278 18.2522 8.25219C18.2606 7.95453 18.2105 7.65822 18.1051 7.3814C17.9996 7.10458 17.8409 6.85309 17.6388 6.64232C17.4367 6.43155 17.1953 6.26595 16.9296 6.15566C16.6638 6.04537 16.3792 5.99271 16.0931 6.00091C15.8331 6.00658 15.5771 6.06798 15.3409 6.18129C15.1048 6.29459 14.8936 6.45737 14.7206 6.65944C14.4027 7.04987 14.1582 7.49909 14 7.98364C13.8421 7.49945 13.5981 7.05049 13.2808 6.66015C13.1077 6.45778 12.8963 6.29477 12.6599 6.18133C12.4235 6.06789 12.1671 6.00647 11.9069 6.00091C11.6207 5.99232 11.3358 6.04466 11.0698 6.15474C10.8037 6.26481 10.5621 6.43028 10.3596 6.64101C10.1572 6.85174 9.99831 7.10329 9.89264 7.38022C9.78696 7.65715 9.73675 7.95363 9.7451 8.25148C9.75054 8.52206 9.80955 8.78857 9.91841 9.03435C10.0273 9.28014 10.1837 9.49991 10.3778 9.67996C10.5065 9.79815 10.6442 9.90517 10.7896 9.99994H7.96078C7.83455 9.99993 7.70956 10.0258 7.59295 10.0761C7.47634 10.1264 7.37039 10.2001 7.28116 10.2931C7.19194 10.386 7.12118 10.4963 7.07294 10.6177C7.02469 10.7391 6.99991 10.8692 7 11.0006V13.2862C7 13.5514 7.10123 13.8057 7.28141 13.9932C7.46159 14.1807 7.70597 14.2861 7.96078 14.2861H8.09804V19.0001C8.09804 19.2653 8.19926 19.5196 8.37945 19.7071C8.55963 19.8946 8.80401 20 9.05882 20H18.9412C19.196 20 19.4404 19.8946 19.6206 19.7071C19.8007 19.5196 19.902 19.2653 19.902 19.0001V14.2861H20.0392C20.294 14.2861 20.5384 14.1807 20.7186 13.9932C20.8988 13.8057 21 13.5514 21 13.2862V11.0006C21 10.7354 20.8988 10.481 20.7186 10.2935C20.5384 10.106 20.294 10.0006 20.0392 10.0006ZM14.5332 9.21499C14.6876 8.34933 14.9649 7.66152 15.3355 7.22583C15.4347 7.11192 15.5553 7.02048 15.6899 6.9572C15.8245 6.89392 15.9702 6.86015 16.1178 6.858H16.1556C16.3263 6.85802 16.4953 6.89369 16.6526 6.96289C16.8098 7.03209 16.9521 7.13343 17.0711 7.26089C17.1901 7.38836 17.2832 7.53937 17.3451 7.70498C17.407 7.87059 17.4363 8.04743 17.4314 8.22505C17.429 8.37891 17.3963 8.53061 17.3351 8.6707C17.2739 8.81079 17.1857 8.93626 17.0759 9.03928C16.3402 9.71495 15.0925 9.91708 14.4351 9.97565C14.4523 9.76924 14.4804 9.5064 14.5332 9.21499ZM10.9426 7.24726C11.1822 6.99887 11.5063 6.85897 11.8444 6.858H11.8822C12.03 6.86042 12.1758 6.89452 12.3104 6.95818C12.445 7.02183 12.5655 7.11368 12.6645 7.22797C13.3137 7.99364 13.5079 9.29212 13.5642 9.97637C13.3659 9.95851 13.1133 9.9278 12.8361 9.87423C12.0043 9.71495 11.3434 9.42497 10.9248 9.03857C10.8148 8.9358 10.7264 8.8105 10.6651 8.67051C10.6038 8.53052 10.571 8.37887 10.5686 8.22505C10.5639 8.04418 10.5946 7.86419 10.6589 7.69608C10.7232 7.52797 10.8198 7.37526 10.9426 7.24726ZM7.82353 13.2862V11.0006C7.82353 10.9627 7.83799 10.9264 7.86373 10.8996C7.88947 10.8728 7.92438 10.8577 7.96078 10.8577H13.5882V13.429H7.96078C7.92438 13.429 7.88947 13.4139 7.86373 13.3872C7.83799 13.3604 7.82353 13.324 7.82353 13.2862ZM8.92157 19.0001V14.2861H13.5882V19.1429H9.05882C9.02242 19.1429 8.98751 19.1279 8.96177 19.1011C8.93603 19.0743 8.92157 19.038 8.92157 19.0001ZM19.0784 19.0001C19.0784 19.038 19.064 19.0743 19.0382 19.1011C19.0125 19.1279 18.9776 19.1429 18.9412 19.1429H14.4118V14.2861H19.0784V19.0001ZM20.1765 13.2862C20.1765 13.324 20.162 13.3604 20.1363 13.3872C20.1105 13.4139 20.0756 13.429 20.0392 13.429H14.4118V10.8577H20.0392C20.0756 10.8577 20.1105 10.8728 20.1363 10.8996C20.162 10.9264 20.1765 10.9627 20.1765 11.0006V13.2862Z"
+                        fill="white" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_3_1598">
+                        <rect width="28" height="28" fill="white" transform="translate(0 28) rotate(-90)" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <p class="models__gift-descr">
+                    Доп.оборудование <span>на 100 000р в подарок</span>
+                  </p>
+                </li>
+              </ul>
+              <div class="models__btn-wrap">
+                <a href="" data-fancybox data-src="#modal" data-modal="true" class="models__btn btn-reset">
+                  Узнать стоимость
+                </a>
+                <a href="" data-fancybox data-src="#modal" data-modal="true" class="models__btn btn-reset">
+                  Рассчитать кредит
+                </a>
+                <a href="" data-fancybox data-src="#modal" data-modal="true" class="models__btn btn-reset">
+                  Подобрать комплектацию
+                </a>
+                <div class="modal" id="modal" style="display: none;">
+                  <form class="modal__form">
+                    <label class="modal__label">
+                      <span class="modal__span">Введите номер телефона</span>
+                      <input class="modal__input" type="tel" required minlength="7" maxlength="11"
+                        placeholder="8-999-999-99-99">
+                    </label>
+                    <button type="submit" class="modal__btn">Отправить</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="models__item">
+            <div class="models__card">
+              <div class="tabs-2">
+                <a class="models__card-link tabs-2__content" href="#" data-target="four">
+                  <p class="models__available">
+                    В наличии
+                  </p>
+                  <div class="models__card-top models__card-top-2">
+                    <div class="models__wrap-header">
+                      <h2 class="models__title">
+                        HAVAL Dargo x
+                      </h2>
+                      <div class="models__test-drive">
+                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g clip-path="url(#clip0_2001_8)">
+                            <circle cx="14" cy="14" r="14" fill="#00CABF" />
+                            <g clip-path="url(#clip1_2001_8)">
+                              <path
+                                d="M19.2807 12.4266L19.8987 11.8086C20.3903 11.317 20.6665 10.6502 20.6665 9.95498C20.6665 9.25972 20.3903 8.59293 19.8987 8.10131C19.407 7.60969 18.7403 7.3335 18.045 7.3335C17.3497 7.3335 16.683 7.60969 16.1913 8.10131L15.5733 8.71931L9.892 14.3993C9.50734 14.7846 9.31467 14.9773 9.14934 15.1893C8.95407 15.4395 8.78664 15.7102 8.65 15.9966C8.53467 16.2393 8.44867 16.498 8.27667 17.014L7.54734 19.2013M19.2807 12.4266C19.2807 12.4266 17.968 12.3493 16.8093 11.1906C15.6507 10.0326 15.574 8.71931 15.574 8.71931M19.2807 12.4266L13.6 18.1066C13.2153 18.4913 13.0227 18.684 12.8107 18.8493C12.5605 19.0446 12.2898 19.212 12.0033 19.3486C11.7607 19.464 11.5027 19.55 10.986 19.722L8.79867 20.4513M8.79867 20.4513L8.264 20.63C8.13937 20.6718 8.00556 20.678 7.87759 20.6479C7.74963 20.6178 7.6326 20.5526 7.53965 20.4597C7.4467 20.3667 7.38152 20.2497 7.35143 20.1217C7.32134 19.9938 7.32754 19.8599 7.36934 19.7353L7.548 19.2006L8.79867 20.4513Z"
+                                stroke="white" />
+                            </g>
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_2001_8">
+                              <rect width="28" height="28" fill="white" transform="translate(0 28) rotate(-90)" />
+                            </clipPath>
+                            <clipPath id="clip1_2001_8">
+                              <rect width="16" height="16" fill="white" transform="translate(6 6)" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                        <p class="models__test-drive-descr">
+                          Записаться <span>на тест-драйв</span>
+                        </p>
+                      </div>
+                    </div>
+                    <p class="models__discount">
+                      Выгода до <span>320 000 ₽</span>
+                    </p>
+                  </div>
+                </a>
+                <a class="models__card-link tabs-2__content" href="#" data-target="five">
+                  <p class="models__available">
+                    В наличии
+                  </p>
+                  <div class="models__card-top models__card-top-1">
+                    <div class="models__wrap-header">
+                      <h2 class="models__title">
+                        HAVAL Dargo x
+                      </h2>
+                      <div class="models__test-drive">
+                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g clip-path="url(#clip0_2001_8)">
+                            <circle cx="14" cy="14" r="14" fill="#00CABF" />
+                            <g clip-path="url(#clip1_2001_8)">
+                              <path
+                                d="M19.2807 12.4266L19.8987 11.8086C20.3903 11.317 20.6665 10.6502 20.6665 9.95498C20.6665 9.25972 20.3903 8.59293 19.8987 8.10131C19.407 7.60969 18.7403 7.3335 18.045 7.3335C17.3497 7.3335 16.683 7.60969 16.1913 8.10131L15.5733 8.71931L9.892 14.3993C9.50734 14.7846 9.31467 14.9773 9.14934 15.1893C8.95407 15.4395 8.78664 15.7102 8.65 15.9966C8.53467 16.2393 8.44867 16.498 8.27667 17.014L7.54734 19.2013M19.2807 12.4266C19.2807 12.4266 17.968 12.3493 16.8093 11.1906C15.6507 10.0326 15.574 8.71931 15.574 8.71931M19.2807 12.4266L13.6 18.1066C13.2153 18.4913 13.0227 18.684 12.8107 18.8493C12.5605 19.0446 12.2898 19.212 12.0033 19.3486C11.7607 19.464 11.5027 19.55 10.986 19.722L8.79867 20.4513M8.79867 20.4513L8.264 20.63C8.13937 20.6718 8.00556 20.678 7.87759 20.6479C7.74963 20.6178 7.6326 20.5526 7.53965 20.4597C7.4467 20.3667 7.38152 20.2497 7.35143 20.1217C7.32134 19.9938 7.32754 19.8599 7.36934 19.7353L7.548 19.2006L8.79867 20.4513Z"
+                                stroke="white" />
+                            </g>
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_2001_8">
+                              <rect width="28" height="28" fill="white" transform="translate(0 28) rotate(-90)" />
+                            </clipPath>
+                            <clipPath id="clip1_2001_8">
+                              <rect width="16" height="16" fill="white" transform="translate(6 6)" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                        <p class="models__test-drive-descr">
+                          Записаться <span>на тест-драйв</span>
+                        </p>
+                      </div>
+                    </div>
+                    <p class="models__discount">
+                      Выгода до <span>320 000 ₽</span>
+                    </p>
+                  </div>
+                </a>
+                <a class="models__card-link tabs-2__content" href="#" data-target="six">
+                  <p class="models__available">
+                    В наличии
+                  </p>
+                  <div class="models__card-top models__card-top-1">
+                    <div class="models__wrap-header">
+                      <h2 class="models__title">
+                        HAVAL Dargo x
+                      </h2>
+                      <div class="models__test-drive">
+                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g clip-path="url(#clip0_2001_8)">
+                            <circle cx="14" cy="14" r="14" fill="#00CABF" />
+                            <g clip-path="url(#clip1_2001_8)">
+                              <path
+                                d="M19.2807 12.4266L19.8987 11.8086C20.3903 11.317 20.6665 10.6502 20.6665 9.95498C20.6665 9.25972 20.3903 8.59293 19.8987 8.10131C19.407 7.60969 18.7403 7.3335 18.045 7.3335C17.3497 7.3335 16.683 7.60969 16.1913 8.10131L15.5733 8.71931L9.892 14.3993C9.50734 14.7846 9.31467 14.9773 9.14934 15.1893C8.95407 15.4395 8.78664 15.7102 8.65 15.9966C8.53467 16.2393 8.44867 16.498 8.27667 17.014L7.54734 19.2013M19.2807 12.4266C19.2807 12.4266 17.968 12.3493 16.8093 11.1906C15.6507 10.0326 15.574 8.71931 15.574 8.71931M19.2807 12.4266L13.6 18.1066C13.2153 18.4913 13.0227 18.684 12.8107 18.8493C12.5605 19.0446 12.2898 19.212 12.0033 19.3486C11.7607 19.464 11.5027 19.55 10.986 19.722L8.79867 20.4513M8.79867 20.4513L8.264 20.63C8.13937 20.6718 8.00556 20.678 7.87759 20.6479C7.74963 20.6178 7.6326 20.5526 7.53965 20.4597C7.4467 20.3667 7.38152 20.2497 7.35143 20.1217C7.32134 19.9938 7.32754 19.8599 7.36934 19.7353L7.548 19.2006L8.79867 20.4513Z"
+                                stroke="white" />
+                            </g>
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_2001_8">
+                              <rect width="28" height="28" fill="white" transform="translate(0 28) rotate(-90)" />
+                            </clipPath>
+                            <clipPath id="clip1_2001_8">
+                              <rect width="16" height="16" fill="white" transform="translate(6 6)" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                        <p class="models__test-drive-descr">
+                          Записаться <span>на тест-драйв</span>
+                        </p>
+                      </div>
+                    </div>
+                    <p class="models__discount">
+                      Выгода до <span>320 000 ₽</span>
+                    </p>
+                  </div>
+                </a>
+                <a class="models__card-link tabs-2__content tabs-2__content--active" href="#" data-target="seven">
+                  <p class="models__available">
+                    В наличии
+                  </p>
+                  <div class="models__card-top models__card-top-2">
+                    <div class="models__wrap-header">
+                      <h2 class="models__title">
+                        HAVAL dargo x
+                      </h2>
+                      <div class="models__test-drive">
+                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g clip-path="url(#clip0_2001_8)">
+                            <circle cx="14" cy="14" r="14" fill="#00CABF" />
+                            <g clip-path="url(#clip1_2001_8)">
+                              <path
+                                d="M19.2807 12.4266L19.8987 11.8086C20.3903 11.317 20.6665 10.6502 20.6665 9.95498C20.6665 9.25972 20.3903 8.59293 19.8987 8.10131C19.407 7.60969 18.7403 7.3335 18.045 7.3335C17.3497 7.3335 16.683 7.60969 16.1913 8.10131L15.5733 8.71931L9.892 14.3993C9.50734 14.7846 9.31467 14.9773 9.14934 15.1893C8.95407 15.4395 8.78664 15.7102 8.65 15.9966C8.53467 16.2393 8.44867 16.498 8.27667 17.014L7.54734 19.2013M19.2807 12.4266C19.2807 12.4266 17.968 12.3493 16.8093 11.1906C15.6507 10.0326 15.574 8.71931 15.574 8.71931M19.2807 12.4266L13.6 18.1066C13.2153 18.4913 13.0227 18.684 12.8107 18.8493C12.5605 19.0446 12.2898 19.212 12.0033 19.3486C11.7607 19.464 11.5027 19.55 10.986 19.722L8.79867 20.4513M8.79867 20.4513L8.264 20.63C8.13937 20.6718 8.00556 20.678 7.87759 20.6479C7.74963 20.6178 7.6326 20.5526 7.53965 20.4597C7.4467 20.3667 7.38152 20.2497 7.35143 20.1217C7.32134 19.9938 7.32754 19.8599 7.36934 19.7353L7.548 19.2006L8.79867 20.4513Z"
+                                stroke="white" />
+                            </g>
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_2001_8">
+                              <rect width="28" height="28" fill="white" transform="translate(0 28) rotate(-90)" />
+                            </clipPath>
+                            <clipPath id="clip1_2001_8">
+                              <rect width="16" height="16" fill="white" transform="translate(6 6)" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                        <p class="models__test-drive-descr">
+                          Записаться <span>на тест-драйв</span>
+                        </p>
+                      </div>
+                    </div>
+                    <p class="models__discount">
+                      Выгода до <span>320 000 ₽</span>
+                    </p>
+                  </div>
+                </a>
+                <ul class="tabs-2__list">
+                  <li class="tabs-2__item">
+                    <button class="tabs-2__btn tabs-2__btn-3 btn-reset" data-path="four"></button>
+                  </li>
+                  <li class="tabs-2__item">
+                    <button class="tabs-2__btn tabs-2__btn-1 btn-reset" data-path="five"></button>
+                  </li>
+                  <li class="tabs-2__item">
+                    <button class="tabs-2__btn tabs-2__btn-2 btn-reset" data-path="six"></button>
+                  </li>
+                  <li class="tabs-2__item">
+                    <button class="tabs-2__btn tabs-2__btn-4 btn-reset tabs-2__btn--active" data-path="seven"></button>
+                  </li>
+                </ul>
+              </div>
+              <ul class="models__gift-list">
+                <li class="models__gift-item">
+                  <svg class="models__gift-icon" width="28" height="28" viewBox="0 0 28 28"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_3_1559)">
+                      <circle cx="14" cy="14" r="14" />
+                      <g clip-path="url(#clip1_3_1559)">
+                        <path
+                          d="M19.9648 6H15.5322C15.3944 5.9999 15.2622 6.05435 15.1644 6.15144L6.30289 15.0108C6.1089 15.2057 6 15.4696 6 15.7446C6 16.0196 6.1089 16.2834 6.30289 16.4783L10.5216 20.6971C10.7166 20.8911 10.9805 21 11.2556 21C11.5307 21 11.7945 20.8911 11.9895 20.6971L20.8485 11.8413C20.9456 11.7436 21.0001 11.6113 21 11.4735V7.03846C21.0007 6.90218 20.9744 6.7671 20.9226 6.64102C20.8709 6.51494 20.7947 6.40034 20.6985 6.30382C20.6022 6.2073 20.4879 6.13077 20.362 6.07863C20.236 6.02648 20.1011 5.99976 19.9648 6Z"
+                          stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                          d="M17 10C16.8022 10 16.6089 9.94135 16.4444 9.83147C16.28 9.72159 16.1518 9.56541 16.0761 9.38268C16.0004 9.19996 15.9806 8.99889 16.0192 8.80491C16.0578 8.61093 16.153 8.43275 16.2929 8.29289C16.4327 8.15304 16.6109 8.0578 16.8049 8.01922C16.9989 7.98063 17.2 8.00043 17.3827 8.07612C17.5654 8.15181 17.7216 8.27998 17.8315 8.44443C17.9414 8.60888 18 8.80222 18 9C18 9.26522 17.8946 9.51957 17.7071 9.70711C17.5196 9.89464 17.2652 10 17 10Z"
+                          fill="white" />
+                        <path
+                          d="M13 22L21.8646 12.83C21.9086 12.784 21.9433 12.7293 21.9666 12.6692C21.9898 12.6091 22.0012 12.5447 21.9999 12.48V8"
+                          stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                      </g>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_3_1559">
+                        <rect width="28" height="28" fill="white" transform="translate(0 28) rotate(-90)" />
+                      </clipPath>
+                      <clipPath id="clip1_3_1559">
+                        <rect width="18" height="18" fill="white" transform="translate(5 5)" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <p class="models__gift-descr">
+                    Выгода <span>по госпрограмме</span>
+                  </p>
+                </li>
+                <li class="models__gift-item">
+                  <svg class="models__gift-icon" width="28" height="28" viewBox="0 0 28 28"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_3_1575)">
+                      <circle cx="14" cy="14" r="14" />
+                      <path
+                        d="M20.9286 9.4186H8.68367C8.4807 9.4186 8.28604 9.33897 8.14252 9.19723C7.999 9.05549 7.91837 8.86325 7.91837 8.66279C7.91837 8.46234 7.999 8.27009 8.14252 8.12835C8.28604 7.98661 8.4807 7.90698 8.68367 7.90698H19.0918C19.2136 7.90698 19.3304 7.8592 19.4165 7.77415C19.5026 7.68911 19.551 7.57376 19.551 7.45349C19.551 7.33322 19.5026 7.21787 19.4165 7.13282C19.3304 7.04778 19.2136 7 19.0918 7H8.68367C8.23714 7 7.80889 7.17519 7.49314 7.48702C7.17739 7.79885 7 8.22179 7 8.66279V18.3372C7 18.7782 7.17739 19.2011 7.49314 19.513C7.80889 19.8248 8.23714 20 8.68367 20H20.9286C21.2127 20 21.4853 19.8885 21.6862 19.6901C21.8871 19.4916 22 19.2225 22 18.9419V10.4767C22 10.1961 21.8871 9.92697 21.6862 9.72853C21.4853 9.53009 21.2127 9.4186 20.9286 9.4186ZM21.0816 18.9419C21.0816 18.982 21.0655 19.0204 21.0368 19.0487C21.0081 19.0771 20.9692 19.093 20.9286 19.093H8.68367C8.4807 19.093 8.28604 19.0134 8.14252 18.8717C7.999 18.7299 7.91837 18.5377 7.91837 18.3372V10.1434C8.15515 10.2635 8.41753 10.3259 8.68367 10.3256H20.9286C20.9692 10.3256 21.0081 10.3415 21.0368 10.3699C21.0655 10.3982 21.0816 10.4367 21.0816 10.4767V18.9419ZM18.9388 14.407C18.9388 14.5565 18.8939 14.7026 18.8098 14.8269C18.7257 14.9512 18.6062 15.0481 18.4663 15.1053C18.3265 15.1625 18.1726 15.1774 18.0242 15.1483C17.8757 15.1191 17.7393 15.0471 17.6323 14.9414C17.5253 14.8357 17.4524 14.701 17.4229 14.5544C17.3933 14.4078 17.4085 14.2558 17.4664 14.1177C17.5243 13.9796 17.6224 13.8616 17.7483 13.7785C17.8741 13.6955 18.0221 13.6512 18.1735 13.6512C18.3764 13.6512 18.5711 13.7308 18.7146 13.8725C18.8581 14.0143 18.9388 14.2065 18.9388 14.407Z"
+                        fill="white" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_3_1575">
+                        <rect width="28" height="28" fill="white" transform="translate(0 28) rotate(-90)" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <p class="models__gift-descr">
+                    Максимальные <span>выгоды по трейд-ин</span>
+                  </p>
+                </li>
+                <li class="models__gift-item">
+                  <svg class="models__gift-icon" width="28" height="28" viewBox="0 0 28 28"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_3_1581)">
+                      <circle cx="14" cy="14" r="14" />
+                      <path
+                        d="M16.8652 12.7785C16.9539 12.6907 17.0022 12.5747 16.9999 12.4548C16.9976 12.3348 16.9449 12.2204 16.8529 12.1356C16.761 12.0508 16.6368 12.0022 16.5068 12.0001C16.3767 11.998 16.2508 12.0425 16.1556 12.1242L13.1632 14.8832L11.8444 13.6673C11.7492 13.5855 11.6233 13.541 11.4932 13.5431C11.3632 13.5452 11.239 13.5938 11.1471 13.6786C11.0551 13.7635 11.0024 13.8779 11.0001 13.9978C10.9978 14.1177 11.0461 14.2338 11.1348 14.3216L12.8084 15.8646C12.9025 15.9513 13.0301 16 13.1632 16C13.2962 16 13.4239 15.9513 13.518 15.8646L16.8652 12.7785Z"
+                        fill="white" />
+                      <path
+                        d="M13.851 6.05729L19.2135 7.8496C19.442 7.92602 19.6412 8.07505 19.7825 8.27534C19.9238 8.47562 19.9999 8.71688 20 8.96452V12.3307C20 16.4782 17.5489 19.5027 13.8893 20.9271C13.6383 21.0243 13.3617 21.0243 13.1107 20.9271C9.4505 19.5033 7 16.4782 7 12.3307V8.96452C7 8.45664 7.31785 8.00639 7.7865 7.8496L13.149 6.05729C13.3771 5.9809 13.6229 5.9809 13.851 6.05729ZM13.45 7.01274L8.08745 8.80573C8.05481 8.81651 8.02633 8.8377 8.00612 8.86624C7.98591 8.89477 7.97502 8.92919 7.975 8.96452V12.3307C7.975 15.9891 10.107 18.6846 13.4545 19.9864C13.4838 19.9978 13.5162 19.9978 13.5455 19.9864C16.893 18.6846 19.025 15.9897 19.025 12.3307V8.96452C19.0249 8.92921 19.0139 8.89485 18.9938 8.86633C18.9736 8.83781 18.9451 8.8166 18.9125 8.80573L13.55 7.01274C13.5175 7.00202 13.4825 7.00202 13.45 7.01274Z"
+                        fill="white" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_3_1581">
+                        <rect width="28" height="28" fill="white" transform="translate(0 28) rotate(-90)" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <p class="models__gift-descr">
+                    КАСКО в подарок
+                  </p>
+                </li>
+                <li class="models__gift-item">
+                  <svg class="models__gift-icon" width="28" height="28" viewBox="0 0 28 28"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_3_1588)">
+                      <circle cx="14" cy="14" r="14" />
+                      <path
+                        d="M17.5 22C19.4328 22 21 18.6423 21 14.5C21 10.3578 19.4328 7 17.5 7M14 14.5C14 18.6423 12.4328 22 10.5 22C8.56724 22 7 18.6423 7 14.5C7 10.3578 8.56724 7 10.5 7C12.4328 7 14 10.3578 14 14.5Z"
+                        stroke="white" />
+                      <path d="M11 22C12.6567 22 14 18.6423 14 14.5C14 10.3578 12.6567 7 11 7" stroke="white" />
+                      <path
+                        d="M11.1429 7H18M11.1429 22H18M12.2857 14.5C12.2857 16.9855 11.7737 19 11.1429 19C10.512 19 10 16.9855 10 14.5C10 12.0145 10.512 10 11.1429 10C11.7737 10 12.2857 12.0145 12.2857 14.5Z"
+                        stroke="white" />
+                      <path
+                        d="M23 9C23 6.79086 21.2091 5 19 5C16.7909 5 15 6.79086 15 9C15 11.2091 16.7909 13 19 13C21.2091 13 23 11.2091 23 9Z" />
+                      <path
+                        d="M21.9854 9.6903C21.9932 9.72217 21.9947 9.7553 21.9897 9.78776C21.9848 9.82023 21.9735 9.85136 21.9565 9.87946C21.9395 9.90756 21.9172 9.93202 21.8907 9.95146C21.8643 9.97089 21.8343 9.98496 21.8025 9.99279L21.0335 10.1803L21.2351 10.9337C21.2436 10.9654 21.2458 10.9985 21.2415 11.031C21.2372 11.0636 21.2265 11.095 21.2101 11.1234C21.1937 11.1519 21.1719 11.1768 21.1459 11.1968C21.1198 11.2168 21.0901 11.2314 21.0584 11.2399C21.0374 11.246 21.0157 11.2493 20.9938 11.2499C20.9389 11.2499 20.8856 11.2317 20.842 11.1982C20.7984 11.1647 20.7671 11.1177 20.7529 11.0646L20.512 10.1646L19.2461 9.43311V10.8965L19.9221 11.573C19.9453 11.5963 19.9637 11.6238 19.9763 11.6542C19.9888 11.6845 19.9953 11.717 19.9953 11.7499C19.9953 11.7827 19.9888 11.8153 19.9763 11.8456C19.9637 11.8759 19.9453 11.9035 19.9221 11.9268C19.8989 11.95 19.8714 11.9684 19.8411 11.981C19.8108 11.9935 19.7783 12 19.7455 12C19.7127 12 19.6802 11.9935 19.6499 11.981C19.6196 11.9684 19.592 11.95 19.5688 11.9268L18.9965 11.3533L18.4241 11.9268C18.4009 11.95 18.3733 11.9684 18.343 11.981C18.3127 11.9935 18.2802 12 18.2474 12C18.2146 12 18.1821 11.9935 18.1518 11.981C18.1215 11.9684 18.094 11.95 18.0708 11.9268C18.0476 11.9035 18.0292 11.8759 18.0166 11.8456C18.0041 11.8153 17.9976 11.7827 17.9976 11.7499C17.9976 11.717 18.0041 11.6845 18.0166 11.6542C18.0292 11.6238 18.0476 11.5963 18.0708 11.573L18.7468 10.8965V9.43311L17.4812 10.1646L17.2403 11.0646C17.2261 11.1178 17.1947 11.1648 17.1511 11.1983C17.1075 11.2318 17.054 11.2499 16.9991 11.2499C16.9772 11.2499 16.9553 11.247 16.9341 11.2415C16.9025 11.233 16.8728 11.2183 16.8467 11.1983C16.8207 11.1784 16.7989 11.1534 16.7824 11.125C16.766 11.0966 16.7554 11.0652 16.7511 11.0326C16.7468 11 16.749 10.9669 16.7575 10.9352L16.9591 10.1818L16.1901 9.99435C16.1258 9.97852 16.0704 9.93776 16.0361 9.88103C16.0018 9.8243 15.9914 9.75623 16.0072 9.69187C16.023 9.62747 16.0637 9.57197 16.1204 9.53764C16.1771 9.50331 16.245 9.49291 16.3093 9.50874L17.2284 9.73467L18.4971 9L17.2288 8.26693L16.3096 8.49285C16.2902 8.49769 16.2701 8.50009 16.25 8.50002C16.189 8.50009 16.13 8.47772 16.0843 8.43719C16.0386 8.39666 16.0094 8.34079 16.002 8.2801C15.9947 8.21943 16.0098 8.15814 16.0445 8.10787C16.0792 8.05757 16.1311 8.02177 16.1904 8.00724L16.9594 7.81975L16.7578 7.06478C16.7407 7.00072 16.7497 6.93246 16.7828 6.87503C16.8159 6.8176 16.8705 6.7757 16.9344 6.75854C16.9984 6.74139 17.0666 6.75038 17.124 6.78355C17.1813 6.81672 17.2232 6.87135 17.2403 6.93541L17.4812 7.83537L18.7468 8.56692V7.10353L18.0708 6.42699C18.0239 6.38009 17.9976 6.31647 17.9976 6.25013C17.9976 6.21728 18.0041 6.18476 18.0166 6.15441C18.0292 6.12406 18.0476 6.09649 18.0708 6.07326C18.094 6.05003 18.1215 6.03161 18.1518 6.01904C18.1821 6.00647 18.2146 6 18.2474 6C18.3137 6 18.3772 6.02635 18.4241 6.07326L18.9965 6.64667L19.5688 6.07326C19.6157 6.02635 19.6792 6 19.7455 6C19.8117 6 19.8753 6.02635 19.9221 6.07326C19.969 6.12017 19.9953 6.18379 19.9953 6.25013C19.9953 6.31647 19.969 6.38009 19.9221 6.42699L19.2461 7.10353V8.56692L20.5116 7.83537L20.7526 6.93541C20.7697 6.87135 20.8116 6.81672 20.8689 6.78355C20.9263 6.75038 20.9945 6.74139 21.0584 6.75854C21.1224 6.7757 21.177 6.8176 21.2101 6.87503C21.2433 6.93246 21.2522 7.00072 21.2351 7.06478L21.0335 7.81818L21.8025 8.00568C21.8634 8.01871 21.9173 8.05411 21.9535 8.10487C21.9897 8.15567 22.0057 8.21817 21.9982 8.28013C21.9907 8.34206 21.9604 8.39899 21.9131 8.43969C21.8659 8.48035 21.8052 8.50189 21.7429 8.50002C21.7228 8.50009 21.7028 8.49769 21.6832 8.49285L20.7641 8.26693L19.4958 9L20.7641 9.7331L21.6832 9.50718C21.7151 9.49934 21.7482 9.49784 21.7806 9.50281C21.813 9.50778 21.8441 9.51908 21.8722 9.53607C21.9003 9.55307 21.9247 9.57544 21.9441 9.60191C21.9635 9.62837 21.9775 9.6584 21.9854 9.6903Z"
+                        fill="white" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_3_1588">
+                        <rect width="28" height="28" fill="white" transform="translate(0 28) rotate(-90)" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <p class="models__gift-descr">
+                    Зимние шины в подарок
+                  </p>
+                </li>
+                <li class="models__gift-item">
+                  <svg class="models__gift-icon" width="28" height="28" viewBox="0 0 28 28"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_3_1598)">
+                      <circle cx="14" cy="14" r="14" />
+                      <path
+                        d="M20.0392 10.0006H17.2076C17.353 9.90571 17.4907 9.7987 17.6194 9.68067C17.8136 9.50063 17.97 9.28085 18.0788 9.03507C18.1877 8.78928 18.2467 8.52278 18.2522 8.25219C18.2606 7.95453 18.2105 7.65822 18.1051 7.3814C17.9996 7.10458 17.8409 6.85309 17.6388 6.64232C17.4367 6.43155 17.1953 6.26595 16.9296 6.15566C16.6638 6.04537 16.3792 5.99271 16.0931 6.00091C15.8331 6.00658 15.5771 6.06798 15.3409 6.18129C15.1048 6.29459 14.8936 6.45737 14.7206 6.65944C14.4027 7.04987 14.1582 7.49909 14 7.98364C13.8421 7.49945 13.5981 7.05049 13.2808 6.66015C13.1077 6.45778 12.8963 6.29477 12.6599 6.18133C12.4235 6.06789 12.1671 6.00647 11.9069 6.00091C11.6207 5.99232 11.3358 6.04466 11.0698 6.15474C10.8037 6.26481 10.5621 6.43028 10.3596 6.64101C10.1572 6.85174 9.99831 7.10329 9.89264 7.38022C9.78696 7.65715 9.73675 7.95363 9.7451 8.25148C9.75054 8.52206 9.80955 8.78857 9.91841 9.03435C10.0273 9.28014 10.1837 9.49991 10.3778 9.67996C10.5065 9.79815 10.6442 9.90517 10.7896 9.99994H7.96078C7.83455 9.99993 7.70956 10.0258 7.59295 10.0761C7.47634 10.1264 7.37039 10.2001 7.28116 10.2931C7.19194 10.386 7.12118 10.4963 7.07294 10.6177C7.02469 10.7391 6.99991 10.8692 7 11.0006V13.2862C7 13.5514 7.10123 13.8057 7.28141 13.9932C7.46159 14.1807 7.70597 14.2861 7.96078 14.2861H8.09804V19.0001C8.09804 19.2653 8.19926 19.5196 8.37945 19.7071C8.55963 19.8946 8.80401 20 9.05882 20H18.9412C19.196 20 19.4404 19.8946 19.6206 19.7071C19.8007 19.5196 19.902 19.2653 19.902 19.0001V14.2861H20.0392C20.294 14.2861 20.5384 14.1807 20.7186 13.9932C20.8988 13.8057 21 13.5514 21 13.2862V11.0006C21 10.7354 20.8988 10.481 20.7186 10.2935C20.5384 10.106 20.294 10.0006 20.0392 10.0006ZM14.5332 9.21499C14.6876 8.34933 14.9649 7.66152 15.3355 7.22583C15.4347 7.11192 15.5553 7.02048 15.6899 6.9572C15.8245 6.89392 15.9702 6.86015 16.1178 6.858H16.1556C16.3263 6.85802 16.4953 6.89369 16.6526 6.96289C16.8098 7.03209 16.9521 7.13343 17.0711 7.26089C17.1901 7.38836 17.2832 7.53937 17.3451 7.70498C17.407 7.87059 17.4363 8.04743 17.4314 8.22505C17.429 8.37891 17.3963 8.53061 17.3351 8.6707C17.2739 8.81079 17.1857 8.93626 17.0759 9.03928C16.3402 9.71495 15.0925 9.91708 14.4351 9.97565C14.4523 9.76924 14.4804 9.5064 14.5332 9.21499ZM10.9426 7.24726C11.1822 6.99887 11.5063 6.85897 11.8444 6.858H11.8822C12.03 6.86042 12.1758 6.89452 12.3104 6.95818C12.445 7.02183 12.5655 7.11368 12.6645 7.22797C13.3137 7.99364 13.5079 9.29212 13.5642 9.97637C13.3659 9.95851 13.1133 9.9278 12.8361 9.87423C12.0043 9.71495 11.3434 9.42497 10.9248 9.03857C10.8148 8.9358 10.7264 8.8105 10.6651 8.67051C10.6038 8.53052 10.571 8.37887 10.5686 8.22505C10.5639 8.04418 10.5946 7.86419 10.6589 7.69608C10.7232 7.52797 10.8198 7.37526 10.9426 7.24726ZM7.82353 13.2862V11.0006C7.82353 10.9627 7.83799 10.9264 7.86373 10.8996C7.88947 10.8728 7.92438 10.8577 7.96078 10.8577H13.5882V13.429H7.96078C7.92438 13.429 7.88947 13.4139 7.86373 13.3872C7.83799 13.3604 7.82353 13.324 7.82353 13.2862ZM8.92157 19.0001V14.2861H13.5882V19.1429H9.05882C9.02242 19.1429 8.98751 19.1279 8.96177 19.1011C8.93603 19.0743 8.92157 19.038 8.92157 19.0001ZM19.0784 19.0001C19.0784 19.038 19.064 19.0743 19.0382 19.1011C19.0125 19.1279 18.9776 19.1429 18.9412 19.1429H14.4118V14.2861H19.0784V19.0001ZM20.1765 13.2862C20.1765 13.324 20.162 13.3604 20.1363 13.3872C20.1105 13.4139 20.0756 13.429 20.0392 13.429H14.4118V10.8577H20.0392C20.0756 10.8577 20.1105 10.8728 20.1363 10.8996C20.162 10.9264 20.1765 10.9627 20.1765 11.0006V13.2862Z"
+                        fill="white" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_3_1598">
+                        <rect width="28" height="28" fill="white" transform="translate(0 28) rotate(-90)" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <p class="models__gift-descr">
+                    Доп.оборудование <span>на 100 000р в подарок</span>
+                  </p>
+                </li>
+              </ul>
+              <div class="models__btn-wrap">
+                <a href="" data-fancybox data-src="#modal" data-modal="true" class="models__btn btn-reset">
+                  Узнать стоимость
+                </a>
+                <a href="" data-fancybox data-src="#modal" data-modal="true" class="models__btn btn-reset">
+                  Рассчитать кредит
+                </a>
+                <a href="" data-fancybox data-src="#modal" data-modal="true" class="models__btn btn-reset">
+                  Подобрать комплектацию
+                </a>
+                <div class="modal" id="modal" style="display: none;">
+                  <form class="modal__form">
+                    <label class="modal__label">
+                      <span class="modal__span">Введите номер телефона</span>
+                      <input class="modal__input" type="tel" required minlength="7" maxlength="11"
+                        placeholder="8-999-999-99-99">
+                    </label>
+                    <button type="submit" class="modal__btn">Отправить</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <script>
+    Fancybox.bind('[data-fancybox]', {
+      // Custom options for all galleries
+    });    
+  </script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
