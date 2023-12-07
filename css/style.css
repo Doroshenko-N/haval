@@ -489,7 +489,7 @@ body {
 }
 
 .hero {
-  background-image: url(../../img/bg_hero.jpg);
+  background-image: url(../img/bg_hero.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -786,10 +786,10 @@ body {
   background-size: cover;
 }
 .models__card-top-1 {
-  background-image: url(../../img/model1.jpg);
+  background-image: url(../img/model1.jpg);
 }
 .models__card-top-2 {
-  background-image: url(../../img/model2.jpg);
+  background-image: url(../img/model2.jpg);
 }
 .models__wrap-header {
   display: -webkit-box;
